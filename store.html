@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Zecha and Zeus</title>
+<META charset="uft-8">
+<style>
+.navBAR{margin:0 auto; width:1080px;}
+.navBAR ul{padding:0px}
+.navBAR ul li{float:left; margin:1px; position:relative; background-color:red; border-radius:10px; list-style-type:none;}
+.navBAR ul li a{text-decoration:none; color:white; padding:5px; font weight:bolder; display:block;width:200px; text-align:center;}
+.navBAR ul li ul{position:absolute;visibility:hidden;}
+.navBAR ul li:hover ul{visibility:visible;}
+.navBAR ul li a:hover{color:blue;}
+.navBAR ul li:hover{background-color:aqua;}
+.container{top:50%; left:50%; transform:translate(-50%,-50%) 
+position:absulote; width:max-content;}
+.card{ border:1px solid black; width:max-content; text-align:center; display:inlign-block; margin:5px;}
+.card img{width:1000px; padding:10px;}
+.title{font-weight:bold; margins:20px;}
+button{border:2px solid #e1701a; background:#f7a440; color:white; font-weight:bold; margin:20px; padding:5px 10px;}
+button:hover{box-shadow:0 0 5px 5px #e1701a inset;}
+.cart{width:250px; float:right; text-align:center; border:1px solid black; overflow-y:scroll; height:100%;}
+
+
+
+</style>
+</head>
+
+<body >
+<div class="navBAR">
+<ul>
+<li><a href="#">Order></a>
+<ul>
+<li><a href="#">Create Account</a></li>
+<li><a href="#">Buy your Orders</a></li>
+<li><a href="#">Update your Orders</a></li>
+<li><a href="#">Cancel your Orders</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="#">About us></a>
+<ul>
+<li><a href="#">Our Profile</a></li>
+
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="#">Contact us></a>
+<ul>
+<li><a href="https://www.facebook.com/joy.polistico.9">Facebook Account</a></li>
+<li><a href="https://mail.google.com/mail/u/0/#search/christianejoy_polistico%40smccnasipit.edu.ph?compose=new">Email</a></li>
+<li><a href="09554337909">Call us</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="#">Customer Service></a>
+<ul>
+<li><a href="#">Inquire</a></li>
+<li><a href="#">Refund item</a></li>
+<li><a href="#">Ask Assistance</a></li>
+<li><a href="#">Concern</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<center><h1>Welcome to Zeus and Zecha store</h1></center>
+<br/>
+<br/>
+<br/>
+<br/>
+<th><div class="container">
+	<div class="card" id="item1">
+		<img src="https://i.pinimg.com/736x/2e/80/ff/2e80ff18fb8e1ff8c1da230c98a52579--chloe-kids-trends-for-.jpg">
+		<div class="title">BrownShoes</div>
+		<div>
+	<label>SIZE:</label>
+	<select>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+	<option>14</option>
+	</select>
+		</div>
+		<button onclick="addToCart(item1)">Add to Cart</button>
+	</div>
+<div class="card" id="item2">
+		<img src="https://i.pinimg.com/originals/27/57/88/275788d78f265859fefb425bcc624aa6.jpg">
+		<div class="title">BightShoes</div>
+		<div>
+	<label>SIZE:</label>
+	<select>
+	<option>10</option>
+	<option>11</option>
+	<option>12</option>
+	<option>13</option>
+	<option>14</option>
+	</select>
+		</div>
+		<button onclick="addToCart (item2)">Add to Cart</button>
+	</div>
+</div>
+</div></th>
+</body>
+</html>
